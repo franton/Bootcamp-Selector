@@ -45,7 +45,7 @@ logme()
 	# Check to see if function has been called correctly
 	if [ -z "$1" ]
 	then
-		echo $( date )" - logme function call error: no text passed to function! Please recheck code!"
+		echo $( date )" - logme function call error: no text passed to function! Please recheck code!" >> $LOG
 		exit 1
 	fi
 
