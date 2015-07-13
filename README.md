@@ -5,7 +5,7 @@ Thanks to Apple continually updating Bootcamp versions, never having a generic d
 
 See this : http://blog.twocanoes.com/post/119029974198/winclone-image-compatibility-with-512-and-4k-block
 
-Short version is 2015 mac generated images only work on 2015 macs. Images from 2014 macs don't work on 2015 macs and then you have to mix in all the different bootcamp versions. Now Tim Sutton has done wonders with his Brigadier tool. I've used it myself and found it very good. However my current circumstances don't allow it's use since we still have 32bit machines (!) here.
+Short version is 2015 mac generated images only work on 2015 macs. Images from 2014 macs don't work on 2015 macs and then you have to mix in all the different bootcamp versions. Now [Tim Sutton](https://github.com/timsutton) has done wonders with his [Brigadier](https://github.com/timsutton/brigadier) tool. I've used it myself and found it very good. However my current circumstances don't allow it's use since we still have 32bit machines (!) here.
 
 A thorny problem indeed. Unfortunately that means separate images which is the admin's worst nightmare. While I can't do much about the generation of those images, I can hopefully make their deployment a lot easier. To do that, you'll need the following:
 
