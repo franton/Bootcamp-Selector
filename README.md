@@ -11,7 +11,7 @@ A thorny problem indeed. Unfortunately that means separate images which is the a
 
 1. This script
 2. Winclone 5 or better. (At time of writing, 5 is the latest version)
-3. Casper (although this could be modified to work on other systems. DeployStudio coming maybe soon?)
+3. Casper or DeployStudio. There's separate scripts and procedures for both.
 
 What this script will do is detect if you have a bootcamp partition present, your computer's Model Identifier, cache the appropriate image onto the system, install it and then rename it so it has the same hostname as your OS X installation but with "PC-" appended in front of it.
 
