@@ -133,7 +133,7 @@ installBC()
 	TOOLS_FOLDER="$BCINSTALL/Contents/Resources/$NAME.winclone"
 
 	logme "Caching $NAME.pkg"
-	jamf policy -trigger $NAME | tee -a ${LOG}
+	jamf policy -event $NAME | tee -a ${LOG}
 	
 	logme "Installing $NAME.pkg"
 	installer -pkg $BCINSTALL -target / -verboseR | tee -a ${LOG}
