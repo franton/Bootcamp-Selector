@@ -185,7 +185,20 @@ case "$MODELID" in
 		logme "Starting installation of Windows 8 with Bootcamp 5.1.5640 64bit"
 		installBC "Win8-5.1.5640-64bit"
 	;;
+	
+	# Bootcamp 5.5640
 
+	"MacBookPro11"*|"MacBookAir6"*|"iMac14"*|"MacPro6"*|"Macmini7"*)
+		logme "Starting installation of Windows 8.1 with Bootcamp 5.1.5640 64bit"
+		installBC "Win8.1-5.1.5640-64bit"
+	;;
+
+	# Bootcamp 5.5621
+
+	"MacBookPro6"*|"MacBookPro8"*|"MacBookPro9"*|"MacBookAir4"*|"MacBookAir5"*|"iMac11,3"|"iMac12"*|"Macmini5"*|"Macmini6"*|"MacPro4"*|"MacPro5"*)
+		logme "Starting installation of Windows 8.1 with Bootcamp 5.1.5621 64bit"
+		installBC "Win8.1-5.1.5621-64bit"
+	;;
 	# Bootcamp 5
 
 	"MacBookPro10"*|"iMac13"*|"VMware"*)
