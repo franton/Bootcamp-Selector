@@ -147,25 +147,25 @@ case "$MODELID" in
 
 	#### Windows 8.1 section ####
 
+	# Bootcamp 5.1.5918
+
+	"MacBookPro11,4"|"MacBookPro11,5")
+		logme "Starting installation of Windows 8.1 with Bootcamp 5.1.5918 64bit"
+		installBC "Win8.1-5.1.5918-64bit"
+	;;
+
 	# Bootcamp 5.1.5886
 	
 	"MacBookPro12"*|"MacBookAir7"*|"MacBook8"*)
-		logme "Starting installation of Windows 8 with Bootcamp 5.1.5886 64bit"
-		installBC "Win8-5.1.5886-64bit"
+		logme "Starting installation of Windows 8.1 with Bootcamp 5.1.5886 64bit"
+		installBC "Win8.1-5.1.5886-64bit"
 	;;
 
-	# Bootcamp 5.5776
+	# Bootcamp 5.5776 - LEGACY WORKFLOW
 
 	"iMac15"*)
-		logme "Starting installation of Windows 8 with Bootcamp 5.1.5776 64bit"
-		installBC "Win8-5.1.5776-64bit"
-	;;
-	
-	# Bootcamp 5.5640
-
-	"MacBookPro11"*|"MacBookAir6"*|"iMac14"*|"MacPro6"*|"Macmini7"*)
-		logme "Starting installation of Windows 8 with Bootcamp 5.1.5640 64bit"
-		installBC "Win8-5.1.5640-64bit"
+		logme "Starting installation of Windows 8.1 with Bootcamp 5.1.5776 64bit"
+		echo "RuntimeSelectWorkflow: Z Install Windows 8 Bootcamp 5.1.5776 64bit (script selected)"
 	;;
 	
 	# Bootcamp 5.5640
@@ -177,24 +177,12 @@ case "$MODELID" in
 
 	# Bootcamp 5.5621
 
-	"MacBookPro6"*|"MacBookPro8"*|"MacBookPro9"*|"MacBookAir4"*|"MacBookAir5"*|"iMac11,3"|"iMac12"*|"Macmini5"*|"Macmini6"*|"MacPro4"*|"MacPro5"*)
+	"MacBookPro6"*|"MacBookPro8"*|"MacBookPro9"*|"MacBookPro10"*|"MacBookAir4"*|"MacBookAir5"*|"iMac11,3"|"iMac12"*|"iMac13"*|"Macmini5"*|"Macmini6"*|"MacPro4"*|"MacPro5"*)
 		logme "Starting installation of Windows 8.1 with Bootcamp 5.1.5621 64bit"
 		installBC "Win8.1-5.1.5621-64bit"
 	;;
 
-	# Bootcamp 5
-
-	"MacBookPro10"*|"iMac13"*|"VMware"*)
-		logme "Starting installation of Windows 8 with Bootcamp 5 64bit"
-		installBC "Win8-5-64bit"
-	;;
-
 	#### Windows 7 64bit Boot Camp 5 section ####
-	
-	"MacBookPro6"*|"MacBookPro8"*|"MacBookPro9"*|"MacBookAir4"*|"MacBookAir5"*|"iMac11,3"|"iMac12"*|"Macmini5"*|"Macmini6"*|"MacPro4"*|"MacPro5"*)
-		logme "Starting installation of Windows 7 with Bootcamp 5 64bit"
-		installBC "Win7-5-64bit"
-	;;
 	
 	# Note that 27-inch, Mid 2010 is iMac11,3 and gets Boot Camp 5
 	
@@ -211,7 +199,7 @@ case "$MODELID" in
 	
 	"MacBookPro7"*|"MacBookAir1"*|"MacBookAir2"*|"MacBook5"*|"iMac7"*|"iMac8"*|"iMac9"*|"Macmini3"*)
 		logme "Starting installation of Windows 7 32bit"
-		installBC "Win7-32bit.pkg"
+		installBC "Win7-4-32bit"
 	;;
 	
 esac
