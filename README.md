@@ -1,5 +1,5 @@
 # Bootcamp-Selector
-Script to be run as part of your Casper bootstrapping workflows to install a specific bootcamp image to a computer.
+Script to be run as part of your Casper or DeployStudio bootstrapping workflows to install a specific bootcamp image to a computer.
 
 Thanks to Apple continually updating Bootcamp versions, never having a generic driver installer and more recently with the 2015 Macs changing the supported disk sector size from 512 to 4096 it's never been harder to generate deployable Bootcamp images.
 
